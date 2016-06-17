@@ -7,5 +7,5 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Actor.destroy_all
-Actor.create([{ first_name: 'Johnny', last_name: 'Depp' }, { first_name: 'Angelina', last_name: 'Jolie'}])
+Actor.create([{ first_name: 'Johnny', last_name: 'Depp' }, { first_name: 'Angelina', last_name: 'Jolie' }, { first_name: 'Brad', last_name: 'Pitt' }])
 Movie.create([{ title: 'Edward Scissorhands', description: 'Haircuts. Scissorhands. Snow.', year: '1990'}, { title: 'Mr. and Mrs. Smith', description: 'Hot married spies.', year: '2005'}, { title: 'Changeling', description: 'Sad mother movie.', year: '2008'}])
